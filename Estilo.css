@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*Elementos{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:     arial ,helvetica;
+background: #e8e8e8;
+}
+header, .main,footer {
+    list-style: none;
+    padding: 0;
+    background: #f6fbfc;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+header nav{
+    background: #d5cc52;
+    overflow: hidden;
+    
+}
+
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    float: left;
+}
+header nav ul li a {
+        padding:10px 20px;
+        display: block;
+        color:#fff;
+        text-decoration: none;
+}
+header nav ul li a:hover{
+    background:#75ACEC;
+}
+.main .articles{
+    width: 68.5%;
+    margin-left:1.5%;
+    float: left;
+    background: #fff;
+}
+
+.main .articles article{
+    padding: 20px;
+    background:#fff ;
+    margin-bottom: 20px;
+} 
+aside{
+width: 30%;
+background: #00ffb3;
+float:left;
+padding:20px;
+box-sizing:border-box;
+}
+footer{
+    background: #000;
+    color:#ffff;
+    clear:both;
+    padding: 10px;
+}
+.menu2{
+    list-style: none;
+    padding: 0;
+    background: #0eaa9d;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    }
+    .menu2 li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: block;
+    
+    }
+    .menu2 li{
+        display: inline-block;
+        text-align: center;
+    }
+    .menu2 li a:hover{
+        background: #ef8354;
+    }
+    .menu3{
+        list-style: none;
+        padding: 0;
+        background: #270926;
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+        }
+        .menu3 li a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        display: block;
+        
+        }
+        .menu3 li{
+            display: inline-block;
+            text-align: center;
+        }
+        .menu3 li a:hover{
+            background: #ef8354;
+        }
+
+        table{
+            border-collapse:collapse;
+        }
+        th, th{
+            padding: 20px;
+        }
+        theads{
+            background-color: rgb(61, 182, 182);
+        }
+        tr:nth-child(even){
+            background-color: rgb(177, 235, 199);
+        }
+ 
+        @media(max-width:400px){
+             .articles{
+            
+                 text-align: left;
+             }
+            .main{
+                color: tomato;
+            }
+             }
+ 
+             @media(width-min:900px){
+ .articles{
+     color: slateblue;
+ }
+ .main{
+     color: sienna;
+ }
+        }
+        a :visited{
+            color: rgb(139, 99, 61);
+        }
+        a :link{
+            color: red;
+        }
+        nav li:focus{
+ color: seagreen;
+        }
